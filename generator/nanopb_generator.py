@@ -2222,7 +2222,7 @@ class ProtoFile:
                     yield '#endif\n'
 
             guards = {}
-            # Provide a #define of the maximum message size, which faciliates setting the size of static arrays to be the largest possible encoded message size
+            # Provide a #define of the maximum message size, which facilitates setting the size of static arrays to be the largest possible encoded message size
             max_messagesize = max(messagesizes, key=lambda messagesize: messagesize[1].value if messagesize[1] else 0)
             for identifier, msize in messagesizes:
                 if msize is not None:
