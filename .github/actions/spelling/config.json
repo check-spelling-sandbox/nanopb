@@ -7,6 +7,21 @@
   },
   "extra_dictionaries": [
     "cspell1:software-terms/softwareTerms.txt",
+    "census:census-5.txt",
+    "cspell1:python/python/python-lib.txt",
+    "cspell1:cpp/stdlib-c.txt",
+    "cspell1:dart/dart.txt",
+    "cspell1:php/php.txt",
+    "cspell1:python/python/python.txt",
+    "cspell1:node/node.txt",
+    "cspell1:python/common/extra.txt",
+    "cspell1:java/java.txt",
+    "cspell1:cpp/lang-keywords.txt",
+    "cspell1:cpp/ecosystem.txt",
+    "cspell1:fullstack/fullstack.txt",
+    "cspell1:golang/go.txt",
+    "cspell1:npm/npm.txt",
+    "cspell1:filetypes/filetypes.txt",
     ""
   ],
   "check_extra_dictionaries": [

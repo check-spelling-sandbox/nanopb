@@ -10,7 +10,9 @@
 (?:^|/)pyproject.toml
 (?:^|/)vendor/
 (?:^|/|\b)requirements(?:-dev|-doc|-test|)\.txt$
+(?:|$^ 87% - excluded 7/8)(?:^|/)__init__\.py$
 -lock\.yaml$
+[^/]\.pb$
 \.a$
 \.ai$
 \.all-contributorsrc$
@@ -82,4 +84,12 @@
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
+^AUTHORS\.txt$
+^extra/bazel/BUILD\.bazel$
+^extra/requirements_lock\.txt$
+^spm_headers/nanopb/pb\.h$
+^tests/regression/issue_485/uint8\.expected$
+^tests/regression/issue_611/uenum\.expected$
+^tests/splint/splint\.rc$
+^WORKSPACE$
 ignore$
