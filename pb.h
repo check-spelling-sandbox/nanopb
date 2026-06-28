@@ -164,7 +164,7 @@ extern "C" {
 #endif
 #endif
 
-/* Handly macro for suppressing unreferenced-parameter compiler warnings. */
+/* Handy macro for suppressing unreferenced-parameter compiler warnings. */
 #ifndef PB_UNUSED
 #define PB_UNUSED(x) (void)(x)
 #endif
