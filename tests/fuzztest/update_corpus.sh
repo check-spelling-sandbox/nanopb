@@ -26,7 +26,7 @@ unzip -nd new_corpus proto3_static.zip
 unzip -nd new_corpus proto3_pointer.zip
 unzip -nd new_corpus io_errors.zip
 
-# Build fuzztest with libfuzzer to merge corpuses
+# Build fuzztest with libfuzzer to merge corpora
 CCFLAGS="-DLLVMFUZZER -fsanitize=address -fsanitize-address-use-after-scope -fsanitize=fuzzer-no-link"
 LINKFLAGS="-std=c++11 -O1 -fsanitize=address -fsanitize-address-use-after-scope -fsanitize=fuzzer-no-link -stdlib=libc++"
 LINKLIBS="-fsanitize=fuzzer"
