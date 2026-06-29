@@ -293,7 +293,7 @@ typedef pb_byte_t pb_type_t;
  * The field contains a pointer to pb_extension_t */
 #define PB_LTYPE_EXTENSION 0x0AU
 
-/* Byte array with inline, pre-allocated byffer.
+/* Byte array with inline, pre-allocated buffer.
  * data_size is the length of the inline, allocated buffer.
  * This differs from PB_LTYPE_BYTES by defining the element as
  * pb_byte_t[data_size] rather than pb_bytes_array_t. */
